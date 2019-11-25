@@ -1,0 +1,10 @@
+CREATE DATABASE javadb;
+USE javadb;
+CREATE TABLE PESSOA(id int auto_increment PRIMARY KEY, nome varchar(255), telefone int, cpf int, matricula int);
+CREATE TABLE CURSO (matricula int auto_increment PRIMARY KEY, nomeCurso varchar(255));
+INSERT INTO CURSO(nomeCurso) VALUES ('cc');
+INSERT INTO CURSO(nomeCurso) VALUES ('xx');
+INSERT INTO CURSO(nomeCurso) VALUES ('yy');
+INSERT INTO PESSOA(nome, telefone, cpf, matricula) VALUES ('Cicero', 0000000000, 1, 1);
+INSERT INTO PESSOA(nome, telefone, cpf, matricula) VALUES ('Renata', 1111111111, 2, 2);
+INSERT INTO PESSOA(nome, telefone, cpf, matricula) VALUES ('Joao', 1111111111, 3, 3);
